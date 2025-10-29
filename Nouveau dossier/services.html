@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bailo - Marketplace pour artisans et services locaux</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="Bailo.html">
+                <i class="fas fa-hands-helping me-2"></i>Bailo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link  " href="Bailo.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link  " href="artisan.html">Artisans</a></li>
+                    <li class="nav-item"><a class="nav-link  " href="apropo.html">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link  " href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">Réserver</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Comment ça marche ?</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-search fa-3x text-primary"></i>
+                    </div>
+                    <h4>Recherchez</h4>
+                    <p>Trouvez des artisans par métier et localisation</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-user-check fa-3x text-primary"></i>
+                    </div>
+                    <h4>Comparez</h4>
+                    <p>Consultez les profils et avis des artisans</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-calendar-check fa-3x text-primary"></i>
+                    </div>
+                    <h4>Réservez</h4>
+                    <p>Contactez et réservez directement l'artisan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Services -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Services populaires</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="c:\Users\DELL\Desktop\SOUTENANCE\imageselectricit.png" width="500" height="200" class="card-img-top" alt="Menuiserie">
+                        <div class="card-body">
+                            <h5 class="card-title"><mark> Menuiserie</mark></h5>
+                            <p class="card-text">Création et réparation de meubles sur mesure</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="c:\Users\DELL\Desktop\SOUTENANCE\imagesplomberie.png"  width="500" height="200" class="card-img-top" alt="Plomberie">
+                        <div class="card-body">
+                            <h5 class="card-title"><mark>Plomberie</mark></h5>
+                            <p class="card-text">Installation et réparation de plomberie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="c:\Users\DELL\Desktop\SOUTENANCE\electricite.png"  width="500" height="200" class="card-img-top" alt="Électricité">
+                        <div class="card-body">
+                            <h5 class="card-title"><mark>Électricité</mark></h5>
+                            <p class="card-text">Travaux électriques et mise aux normes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="c:\Users\DELL\Desktop\SOUTENANCE\imageselectricit.png"  width="500" height="200" class="card-img-top" alt="Charpente">
+                        <div class="card-body">
+                            <h5 class="card-title"><mark>Charpente</mark></h5>
+                            <p class="card-text">Construction et rénovation de charpentes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section class="container mb-5">
+        <h2 class="section-title">Services populaires</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\peinture1.jpg" class="card-img-top" alt="Plomberie">
+                    <div class="card-body">
+                        <center><h3 class="card-title">Peinture</h3></center> 
+                        <p class="card-text">Réparations, installations et dépannages par des plombiers qualifiés.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\4.jpg" class="card-img-top" alt="Électricité">
+                    <div class="card-body">
+                        <center><h3  class="card-title">Électricité</h3></center>
+                        <p class="card-text">Installations, réparations et dépannages électriques en toute sécurité.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\menuisier.jpg" class="card-img-top" alt="Menuiserie">
+                    <div class="card-body">
+                        <center><h3  class="card-title">Menuiserie</h3></center>
+                        <p class="card-text">Création, réparation et installation sur mesure par des artisans qualifiés.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="container mb-5">
+        <h2 class="section-title">Services populaires</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\peintre batiment.jpg" class="card-img-top" alt="Plomberie">
+                    <div class="card-body">
+                        <h5 class="card-title">peintre</h5>
+                        <p class="card-text">Réparations, installations et dépannages par des plombiers qualifiés.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\4.jpg" class="card-img-top" alt="Électricité">
+                    <div class="card-body">
+                        <h5 class="card-title">Électricité</h5>
+                        <p class="card-text">Installations, réparations et dépannages électriques en toute sécurité.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\menuisier.jpg" class="card-img-top" alt="Menuiserie">
+                    <div class="card-body">
+                        <h5 class="card-title">Menuiserie</h5>
+                        <p class="card-text">Création, réparation et installation sur mesure par des artisans qualifiés.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="container mb-5">
+        <h2 class="section-title">Services populaires</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\peintre batiment.jpg" class="card-img-top" alt="Plomberie">
+                    <div class="card-body">
+                        <h5 class="card-title">peintre</h5>
+                        <p class="card-text">Réparations, installations et dépannages par des plombiers qualifiés.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\4.jpg" class="card-img-top" alt="Électricité">
+                    <div class="card-body">
+                        <h5 class="card-title">Électricité</h5>
+                        <p class="card-text">Installations, réparations et dépannages électriques en toute sécurité.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\menuisier.jpg" class="card-img-top" alt="Menuiserie">
+                    <div class="card-body">
+                        <h5 class="card-title">Menuiserie</h5>
+                        <p class="card-text">Création, réparation et installation sur mesure par des artisans qualifiés.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

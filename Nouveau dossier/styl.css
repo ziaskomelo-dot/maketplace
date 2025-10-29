@@ -1,0 +1,128 @@
+:root {
+            --primary-color: #4e73df;
+            --secondary-color: #6f42c1;
+            --accent-color: #36b9cc;
+            --light-bg: #f8f9fc;
+        }
+        
+        body {
+            background-color: var(--light-bg);
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .navbar-brand {
+            font-weight: 800;
+            font-size: 1.8rem;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('lele.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 7rem 0;
+            margin-bottom: 3rem;
+        }
+
+        .card-service {
+            transition: transform 0.3s;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+            margin-bottom: 1.5rem;
+        }
+        
+        .card-service:hover {
+            transform: translateY(-5px);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        
+        .section-title {
+            position: relative;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--primary-color);
+        }
+        
+        .testimonial-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+        }
+        
+        footer {
+            background-color: #2e3a59;
+            color: white;
+            padding: 3rem 0;
+            margin-top: 3rem;
+        }
+        
+        .login-form {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+            padding: 2rem;
+        }
+
+        .home-section{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .home-section .left{
+            position: relative;
+            height: 500px;
+            width: 600px;
+        }
+
+        .home-section .left img{
+            position: absolute;
+            object-fit: cover;
+            border: 8px solid #fff;
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 2rem;
+        }
+
+        .home-section .left-image-1{
+            height: 500px;
+            width: 600px;
+            transition: 0.5s;
+        }
+
+        .home-section .left-image-1:hover {
+            transform: scale(1.1) rotate
+            (10deg);
+        }
+
+        .home-section .left-image-2{
+            height: 400px;
+            width: 350px;
+            top: 100px;
+            left:350px;
+            transition: 0.5s;
+        }
+
+         .home-section .left-image-2:hover {
+            transform: scale(1.1) rotate
+            (-10deg);
+        }

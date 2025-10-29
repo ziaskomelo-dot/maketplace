@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bailo - Marketplace pour artisans et services locaux</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="Bailo.html">
+                <i class="fas fa-hands-helping me-2"></i>Bailo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon">rsrfds</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="Bailo.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link " href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link " href="artisan.html">Artisans</a></li>
+                    <li class="nav-item"><a class="nav-link " href="apropo.html">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Connexion</button>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">Inscription</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Découvrez les artisans locaux près de chez vous</h1>
+            <p class="lead mb-4">Connectez-vous avec des professionnels qualifiés pour tous vos besoins</p>
+            <div class="row g-3 justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control form-control-lg" placeholder="Que recherchez-vous ?">
+                        <button class="btn btn-primary btn-lg">Rechercher</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="container mb-5">
+        <h2 class="section-title">Services populaires</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\peintre batiment.jpg" class="card-img-top" alt="Plomberie">
+                    <div class="card-body">
+                        <h5 class="card-title">peintre</h5>
+                        <p class="card-text">Réparations, installations et dépannages par des plombiers qualifiés.</p>
+                        <a href="services.html" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\4.jpg" class="card-img-top" alt="Électricité">
+                    <div class="card-body">
+                        <h5 class="card-title">Électricité</h5>
+                        <p class="card-text">Installations, réparations et dépannages électriques en toute sécurité.</p>
+                        <a href="services.html" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-service">
+                    <img src="c:\Users\DELL\Desktop\SOUTENANCE\images artisan\menuisier.jpg" class="card-img-top" alt="Menuiserie">
+                    <div class="card-body">
+                        <h5 class="card-title">Menuiserie</h5>
+                        <p class="card-text">Création, réparation et installation sur mesure par des artisans qualifiés.</p>
+                        <a href="services.html" class="btn btn-sm btn-primary">Voir les artisans</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Comment ça marche</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-search fa-2x text-white"></i>
+                        </div>
+                        <h4>1. Recherchez</h4>
+                        <p>Trouvez le service dont vous avez besoin près de chez vous.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-comments fa-2x text-white"></i>
+                        </div>
+                        <h4>2. Contactez</h4>
+                        <p>Discutez directement avec l'artisan et détaillez votre projet.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-thumbs-up fa-2x text-white"></i>
+                        </div>
+                        <h4>3. Réalisez</h4>
+                        <p>L'artisan intervient et vous profitez d'un travail de qualité.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container my-5">
+        <h2 class="section-title text-center">Ce que disent nos clients</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client" class="rounded-circle me-3" width="60">
+                        <div>
+                            <h5 class="mb-0">Marie Dupont</h5>
+                            <span class="text-muted">Paris</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">"J'ai trouvé un plombier en moins d'une heure pour réparer ma fuite d'eau. Service rapide et professionnel !"</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="rounded-circle me-3" width="60">
+                        <div>
+                            <h5 class="mb-0">Pierre Martin</h5>
+                            <span class="text-muted">Lyon</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">"Menuisier exceptionnel qui a réalisé une bibliothèque sur mesure. Je recommande vivement cette plateforme !"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Vous êtes artisan ?</h2>
+            <p class="lead mb-4">Rejoignez notre plateforme et développez votre activité locale</p>
+            <button class="btn btn-light btn-lg">Créer un compte professionnel</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>ArtisanLocal</h5>
+                    <p>La plateforme qui connecte les artisans locaux avec les clients cherchant des services de qualité.</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Liens rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Accueil</a></li>
+                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="#" class="text-white">Artisans</a></li>
+                        <li><a href="#" class="text-white">À propos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Compte</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Connexion</a></li>
+                        <li><a href="#" class="text-white">Inscription</a></li>
+                        <li><a href="#" class="text-white">Mot de passe oublié</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact</h5>
+                    <address class="text-white">
+                        <i class="fas fa-map-marker-alt me-2"></i> 123 Rue des Artisans, Paris<br>
+                        <i class="fas fa-phone me-2"></i> +33 1 23 45 67 89<br>
+                        <i class="fas fa-envelope me-2"></i> contact@artisanlocal.fr
+                    </address>
+                </div>
+            </div>
+            <hr class="mt-0 mb-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">© 2023 ArtisanLocal. Tous droits réservés.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Connexion</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Mot de passe</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Se souvenir de moi</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Se connecter</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <a href="#">Mot de passe oublié ?</a>
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <p>Vous n'avez pas de compte ? <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal" data-bs-dismiss="modal">Créer un compte</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Créer un compte</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-client-tab" data-bs-toggle="pill" data-bs-target="#pills-client" type="button" role="tab">Client</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-artisan-tab" data-bs-toggle="pill" data-bs-target="#pills-artisan" type="button" role="tab">Artisan</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-client" role="tabpanel">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="clientName" class="form-label">Nom complet</label>
+                                    <input type="text" class="form-control" id="clientName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="clientEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="clientEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="clientPassword" class="form-label">Mot de passe</label>
+                                    <input type="password" class="form-control" id="clientPassword" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="clientConfirmPassword" class="form-label">Confirmer le mot de passe</label>
+                                    <input type="password" class="form-control" id="clientConfirmPassword" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="clientTerms" required>
+                                    <label class="form-check-label" for="clientTerms">J'accepte les conditions d'utilisation</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Créer un compte client</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="pills-artisan" role="tabpanel">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="artisanName" class="form-label">Nom de l'entreprise</label>
+                                    <input type="text" class="form-control" id="artisanName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="artisanEmail" class="form-label">Email professionnel</label>
+                                    <input type="email" class="form-control" id="artisanEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="artisanPassword" class="form-label">Mot de passe</label>
+                                    <input type="password" class="form-control" id="artisanPassword" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="artisanConfirmPassword" class="form-label">Confirmer le mot de passe</label>
+                                    <input type="password" class="form-control" id="artisanConfirmPassword" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="artisanService" class="form-label">Service principal</label>
+                                    <select class="form-select" id="artisanService" required>
+                                        <option value="">Sélectionnez un service</option>
+                                        <option value="plomberie">Plomberie</option>
+                                        <option value="electricite">Électricité</option>
+                                        <option value="menuiserie">Menuiserie</option>
+                                        <option value="peinture">Peinture</option>
+                                        <option value="jardinage">Jardinage</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="artisanTerms" required>
+                                    <label class="form-check-label" for="artisanTerms">J'accepte les conditions d'utilisation</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Créer un compte artisan</button>
+                            </form>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <p>Vous avez déjà un compte ? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Se connecter</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Script pour gérer les interactions de base
+        document.addEventListener('DOMContentLoaded', function() {
+            // Exemple de code JavaScript pour gérer les interactions
+            console.log('Site Marketplace chargé');
+            
+            // Gestion de l'affichage des modales selon le type d'utilisateur
+            const registerArtisanBtn = document.getElementById('registerArtisanBtn');
+            if (registerArtisanBtn) {
+                registerArtisanBtn.addEventListener('click', function() {
+                    // Rediriger vers la page d'inscription artisan
+                    console.log('Redirection vers inscription artisan');
+                });
+            }
+            
+            // Simulation de fonctionnalité de recherche
+            const searchForm = document.querySelector('.hero-section form');
+            if (searchForm) {
+                searchForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const searchInput = this.querySelector('input[type="text"]');
+                    alert('Recherche pour: ' + searchInput.value);
+                    // Normalement, ici on redirigerait vers une page de résultats
+                });
+            }
+        });
+    </script>
+</body>
+</html>
